@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <properties resource="application.properties"/>
+
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <!-- tk.mybatis配置 -->
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="com.info.dao.plugin.TkMybatisMapper"/>
+        </plugin>
+
+        <!-- 数据库链接 -->
+        <jdbcConnection driverClass="${datasource.druid.driver-class-name}"
+                        connectionURL="${datasource.druid.url}"
+                        userId="${datasource.druid.username}"
+                        password="${datasource.druid.password}">
+        </jdbcConnection>
+        <!-- 生成实体类的包名和位置 -->
+        <javaModelGenerator targetPackage="com.info.entity" targetProject="../springboot-com/src/main/java"/>
+        <!-- 生成的映射文件包名和位置 -->
+        <sqlMapGenerator targetPackage="mapper" targetProject="../springboot-dao/src/main/resources/mapper"/>
+        <!-- 生成DAO的包名和位置 -->
+        <javaClientGenerator targetPackage="com.info.dao.mapper" targetProject="../springboot-dao/src/main/java" type="XMLMAPPER"/>
+
+        <!-- 要生成的那些表 -->
+        <table tableName="organization" >
+            <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+    </context>
+</generatorConfiguration>
