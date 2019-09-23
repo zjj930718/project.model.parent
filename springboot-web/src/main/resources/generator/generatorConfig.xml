@@ -29,7 +29,7 @@
         <javaClientGenerator targetPackage="com.info.dao.mapper" targetProject="../springboot-dao/src/main/java" type="XMLMAPPER"/>
 
         <!-- 要生成的那些表 -->
-        <table tableName="organization" >
+        <table tableName="interface_relation" >
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
     </context>
