@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.info.dao.mapper.OrganizationMapper">
+  <resultMap id="BaseResultMap" type="com.info.entity.Organization">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" jdbcType="INTEGER" property="id" />
+    <result column="orgcoding" jdbcType="VARCHAR" property="orgcoding" />
+    <result column="orgName" jdbcType="VARCHAR" property="orgname" />
+    <result column="devCoding" jdbcType="VARCHAR" property="devcoding" />
+    <result column="organizeAllName" jdbcType="VARCHAR" property="organizeallname" />
+    <result column="unitCode" jdbcType="CHAR" property="unitcode" />
+    <result column="jion" jdbcType="CHAR" property="jion" />
+    <result column="parent_orgcoding" jdbcType="VARCHAR" property="parentOrgcoding" />
+    <result column="tag_type" jdbcType="VARCHAR" property="tagType" />
+    <result column="tag_name" jdbcType="VARCHAR" property="tagName" />
+  </resultMap>
+</mapper>
