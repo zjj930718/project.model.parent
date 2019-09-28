@@ -4,27 +4,26 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.info</groupId>
-		<artifactId>springboot-parent</artifactId>
+		<artifactId>project.model.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>springboot-dao</artifactId>
+	<artifactId>model-dao</artifactId>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.info</groupId>
-			<artifactId>springboot-com</artifactId>
+			<artifactId>model-entity</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
-			<version>${druid.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>${mysql.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.github.pagehelper</groupId>
@@ -46,12 +45,10 @@
 		<dependency>
 			<groupId>tk.mybatis</groupId>
 			<artifactId>mapper-spring-boot-starter</artifactId>
-			<version>2.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
-			<version>1.1.10</version>
 		</dependency>
 	</dependencies>
 

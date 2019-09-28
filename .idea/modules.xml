@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/springboot-com/springboot-com.iml" filepath="$PROJECT_DIR$/springboot-com/springboot-com.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-dao/springboot-dao.iml" filepath="$PROJECT_DIR$/springboot-dao/springboot-dao.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-com/springboot-entity.iml" filepath="$PROJECT_DIR$/springboot-com/springboot-entity.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-parent.iml" filepath="$PROJECT_DIR$/springboot-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-service/springboot-service.iml" filepath="$PROJECT_DIR$/springboot-service/springboot-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot-web/springboot-web.iml" filepath="$PROJECT_DIR$/springboot-web/springboot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model-common/model-common.iml" filepath="$PROJECT_DIR$/model-common/model-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model-dao/model-dao.iml" filepath="$PROJECT_DIR$/model-dao/model-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model-entity/model-entity.iml" filepath="$PROJECT_DIR$/model-entity/model-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model-service/model-service.iml" filepath="$PROJECT_DIR$/model-service/model-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model-web/model-web.iml" filepath="$PROJECT_DIR$/model-web/model-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project.model.parent.iml" filepath="$PROJECT_DIR$/project.model.parent.iml" />
     </modules>
   </component>
 </project>

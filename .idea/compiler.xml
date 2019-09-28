@@ -6,20 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-com" />
-        <module name="springboot-dao" />
-        <module name="springboot-entity" />
-        <module name="springboot-service" />
-        <module name="springboot-web" />
+        <module name="model-common" />
+        <module name="model-dao" />
+        <module name="model-entity" />
+        <module name="model-service" />
+        <module name="model-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springboot-com" target="1.8" />
-      <module name="springboot-dao" target="1.8" />
-      <module name="springboot-entity" target="1.8" />
-      <module name="springboot-parent" target="1.8" />
-      <module name="springboot-service" target="1.8" />
-      <module name="springboot-web" target="1.8" />
+      <module name="model-common" target="1.8" />
+      <module name="model-dao" target="1.8" />
+      <module name="model-entity" target="1.8" />
+      <module name="model-service" target="1.8" />
+      <module name="model-web" target="1.8" />
+      <module name="project.model.parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

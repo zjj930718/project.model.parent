@@ -22,11 +22,11 @@
                         password="${datasource.druid.password}">
         </jdbcConnection>
         <!-- 生成实体类的包名和位置 -->
-        <javaModelGenerator targetPackage="com.info.entity" targetProject="../springboot-com/src/main/java"/>
+        <javaModelGenerator targetPackage="com.info.entity" targetProject="../model-common/src/main/java"/>
         <!-- 生成的映射文件包名和位置 -->
-        <sqlMapGenerator targetPackage="mapper" targetProject="../springboot-dao/src/main/resources/mapper"/>
+        <sqlMapGenerator targetPackage="mapper" targetProject="../model-dao/src/main/resources/mapper"/>
         <!-- 生成DAO的包名和位置 -->
-        <javaClientGenerator targetPackage="com.info.dao.mapper" targetProject="../springboot-dao/src/main/java" type="XMLMAPPER"/>
+        <javaClientGenerator targetPackage="com.info.dao.mapper" targetProject="../model-dao/src/main/java" type="XMLMAPPER"/>
 
         <!-- 要生成的那些表 -->
         <table tableName="organization" >

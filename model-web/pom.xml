@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.info</groupId>
-		<artifactId>springboot-parent</artifactId>
+		<artifactId>project.model.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>springboot-web</artifactId>
-	<name>springboot-web</name>
+	<artifactId>model-web</artifactId>
+	<name>model.web</name>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -19,7 +19,8 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.info</groupId>
-			<artifactId>springboot-service</artifactId>
+			<artifactId>model-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
